@@ -12,5 +12,5 @@ public interface ServiceQuiz {
 
    public ResponseEntity<List<QuestionWrapper>> getquizQues(Integer id);
 
-    ResponseEntity<Integer> calculateResult(Integer id, List<Response> response);
+    ResponseEntity<Integer> calculateResult(Integer id, java.util.List<com.example.Quiz.Model.Response> response);
 }
